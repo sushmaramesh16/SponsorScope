@@ -1,0 +1,8 @@
+sponsorscope:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      # paths are relative to the repo root; run dbt from there (see Makefile / pipeline.run)
+      path: "{{ env_var('SPONSORSCOPE_DB', 'data/sponsorscope.duckdb') }}"
+      threads: 4

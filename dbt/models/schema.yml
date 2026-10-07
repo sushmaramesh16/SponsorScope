@@ -1,0 +1,110 @@
+version: 2
+
+models:
+  - name: stg_postings
+    columns:
+      - name: job_key
+        data_tests: [not_null, unique]
+      - name: ats
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [greenhouse, lever, ashby]
+
+  - name: stg_companies
+    columns:
+      - name: company_name
+        data_tests: [not_null, unique]
+      - name: ats
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [greenhouse, lever, ashby]
+
+  - name: stg_lca_employers
+    columns:
+      - name: employer_norm
+        data_tests: [not_null, unique]
+
+  - name: int_postings_enriched
+    columns:
+      - name: job_key
+        data_tests: [not_null, unique]
+
+  - name: int_employer_match
+    columns:
+      - name: company_name
+        data_tests: [not_null, unique]
+      - name: match_method
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [alias, exact, fuzzy, blocked, none]
+
+  - name: fct_postings_history
+    columns:
+      - name: job_key
+        data_tests: [not_null, unique]
+      - name: first_seen
+        data_tests: [not_null]
+      - name: last_seen
+        data_tests: [not_null]
+
+  - name: dim_companies
+    columns:
+      - name: company_name
+        data_tests: [not_null, unique]
+
+  - name: fct_jobs
+    description: Open US / remote data, ML and software postings with H-1B employer context.
+    columns:
+      - name: job_key
+        data_tests: [not_null, unique]
+      - name: company_name
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_companies')
+                field: company_name
+      - name: title
+        data_tests: [not_null]
+      - name: apply_url
+        data_tests: [not_null]
+      - name: posted_date
+        data_tests: [not_null]
+      - name: role
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - Data Scientist
+                  - Data Engineer
+                  - ML Engineer
+                  - AI Engineer
+                  - Data Analyst
+                  - Analytics Engineer
+                  - Research Scientist
+                  - Software Engineer
+                  - Backend Engineer
+                  - Frontend Engineer
+                  - Full-Stack Engineer
+                  - Mobile Engineer
+                  - Platform / DevOps / SRE
+      - name: role_group
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [Data & ML, Software Engineering]
+      - name: visa_status
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [no sponsorship, sponsorship available, not mentioned]
+
+  - name: mart_salary_by_role_city
+    columns:
+      - name: role
+        data_tests: [not_null]

@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Files produced by the Python ingest steps (paths relative to the repo root).
+    tables:
+      - name: postings_snapshots
+        description: Daily raw job-board snapshots (gitignored), hive-partitioned by snapshot_date.
+        meta:
+          external_location: "read_parquet('data/raw/postings/snapshot_date=*/postings.parquet', hive_partitioning = true)"
+      - name: companies
+        description: Verified job boards (seeds/companies.csv).
+        meta:
+          external_location: "read_csv('seeds/companies.csv', header = true, all_varchar = true)"
+      - name: employer_aliases
+        description: Manual company -> LCA legal name overrides ('-' blocks a false match).
+        meta:
+          external_location: "read_csv('seeds/employer_aliases.csv', header = true, all_varchar = true)"
+      - name: postings_seen
+        description: Committed first_seen / last_seen history from previous runs.
+        meta:
+          external_location: "read_parquet('data/history/postings_seen.parquet')"
+
+  - name: lca
+    description: Employer-level aggregates of US DOL OFLC LCA disclosure data (H-1B only).
+    tables:
+      - name: employers
+        meta:
+          external_location: "read_parquet('data/lca/lca_employers.parquet')"
+      - name: employer_roles
+        meta:
+          external_location: "read_parquet('data/lca/lca_employer_roles.parquet')"

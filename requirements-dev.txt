@@ -1,0 +1,10 @@
+# Pipeline, tests and lint (Python 3.11). The app's runtime deps live in app/requirements.txt.
+-r app/requirements.txt
+duckdb==1.5.6
+dbt-core==1.12.5
+dbt-duckdb==1.11.0
+requests==2.34.2
+rapidfuzz==3.14.6
+python-calamine==0.8.2
+pytest==9.1.1
+ruff==0.16.10

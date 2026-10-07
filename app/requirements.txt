@@ -1,0 +1,5 @@
+# Runtime dependencies for Streamlit Community Cloud (app only; the pipeline uses requirements-dev.txt)
+streamlit==1.65.0
+pandas==3.0.6
+pyarrow==25.0.1
+altair==6.3.0

@@ -1,0 +1,16 @@
+.venv/
+.env
+data/raw/
+data/*.duckdb
+data/*.duckdb.wal
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+logs/
+.DS_Store
+.streamlit/secrets.toml
+dbt/.user.yml

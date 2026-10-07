@@ -1,0 +1,15 @@
+{
+  "source": "US DOL OFLC LCA Programs (H-1B, H-1B1, E-3) disclosure data",
+  "source_page": "https://www.dol.gov/agencies/eta/foreign-labor/performance",
+  "files": [
+    "LCA_Disclosure_Data_FY2025_Q1.xlsx",
+    "LCA_Disclosure_Data_FY2025_Q2.xlsx",
+    "LCA_Disclosure_Data_FY2025_Q3.xlsx",
+    "LCA_Disclosure_Data_FY2025_Q4.xlsx"
+  ],
+  "decision_date_min": "2024-10-01",
+  "decision_date_max": "2025-09-30",
+  "h1b_cases": 582269,
+  "employers": 61934,
+  "built_at": "2026-10-07T23:14:47+00:00"
+}

@@ -1,0 +1,523 @@
+token,company_name
+airbnb,Airbnb
+stripe,Stripe
+databricks,Databricks
+robinhood,Robinhood
+coinbase,Coinbase
+dropbox,Dropbox
+pinterest,Pinterest
+lyft,Lyft
+doordashusa,DoorDash
+instacart,Instacart
+reddit,Reddit
+discord,Discord
+figma,Figma
+asana,Asana
+airtable,Airtable
+gitlab,GitLab
+hashicorp,HashiCorp
+elastic,Elastic
+mongodb,MongoDB
+datadog,Datadog
+cloudflare,Cloudflare
+twilio,Twilio
+okta,Okta
+gusto,Gusto
+brex,Brex
+chime,Chime
+affirm,Affirm
+sofi,SoFi
+marqeta,Marqeta
+toast,Toast
+squarespace,Squarespace
+etsy,Etsy
+peloton,Peloton
+roblox,Roblox
+unity3d,Unity
+twitch,Twitch
+duolingo,Duolingo
+grammarly,Grammarly
+scaleai,Scale AI
+anthropic,Anthropic
+openai,OpenAI
+cohere,Cohere
+huggingface,Hugging Face
+fivetran,Fivetran
+dbtlabsinc,dbt Labs
+airbyte,Airbyte
+astronomer,Astronomer
+starburst,Starburst
+cockroachlabs,Cockroach Labs
+singlestore,SingleStore
+clickhouse,ClickHouse
+pinecone,Pinecone
+weaviate,Weaviate
+samsara,Samsara
+verkada,Verkada
+andurilindustries,Anduril
+rippling,Rippling
+lattice,Lattice
+carta,Carta
+plaid,Plaid
+nerdwallet,NerdWallet
+betterment,Betterment
+wealthfront,Wealthfront
+chainalysis,Chainalysis
+ripple,Ripple
+kraken,Kraken
+gemini,Gemini
+circle,Circle
+opensea,OpenSea
+dapperlabs,Dapper Labs
+flexport,Flexport
+faire,Faire
+gopuff,Gopuff
+compass,Compass
+opendoor,Opendoor
+offerup,OfferUp
+nextdoor,Nextdoor
+thumbtack,Thumbtack
+yelp,Yelp
+quora,Quora
+medium,Medium
+vimeo,Vimeo
+buzzfeed,BuzzFeed
+spotify,Spotify
+palantir,Palantir
+mixpanel,Mixpanel
+amplitude,Amplitude
+heap,Heap
+braze,Braze
+iterable,Iterable
+klaviyo,Klaviyo
+intercom,Intercom
+front,Front
+calendly,Calendly
+loom,Loom
+webflow,Webflow
+vercel,Vercel
+netlify,Netlify
+postman,Postman
+sourcegraph,Sourcegraph
+jfrog,JFrog
+harnessinc,Harness
+launchdarkly,LaunchDarkly
+pagerduty,PagerDuty
+newrelic,New Relic
+sumologic,Sumo Logic
+grafanalabs,Grafana Labs
+honeycomb,Honeycomb
+chronosphere,Chronosphere
+sentry,Sentry
+circleci,CircleCI
+kong,Kong
+temporal,Temporal Technologies
+planetscale,PlanetScale
+supabase,Supabase
+neon,Neon
+retool,Retool
+zapier,Zapier
+smartsheet,Smartsheet
+box,Box
+tanium,Tanium
+snyk,Snyk
+wiz,Wiz
+abnormalsecurity,Abnormal Security
+arcticwolf,Arctic Wolf
+1password,1Password
+bitwarden,Bitwarden
+tailscale,Tailscale
+nuro,Nuro
+cruise,Cruise
+waymo,Waymo
+motional,Motional
+appliedintuition,Applied Intuition
+relativity,Relativity Space
+spacex,SpaceX
+lucidmotors,Lucid Motors
+zipline,Zipline
+skydio,Skydio
+shieldai,Shield AI
+flocksafety,Flock Safety
+benchling,Benchling
+color,Color Health
+recursionpharmaceuticals,Recursion
+insitro,insitro
+zocdoc,Zocdoc
+oscar,Oscar Health
+ro,Ro
+headspace,Headspace
+calm,Calm
+noom,Noom
+freenome,Freenome
+ramp,Ramp
+notion,Notion
+linear,Linear
+deel,Deel
+vanta,Vanta
+anysphere,Anysphere (Cursor)
+cursor,Cursor
+perplexity,Perplexity
+replit,Replit
+mercury,Mercury
+posthog,PostHog
+clerk,Clerk
+modal,Modal
+runwayml,Runway
+elevenlabs,ElevenLabs
+character,Character.AI
+harvey,Harvey
+glean,Glean
+mistral,Mistral AI
+togetherai,Together AI
+anyscale,Anyscale
+wandb,Weights & Biases
+hex,Hex
+sigmacomputing,Sigma Computing
+sardine,Sardine
+confluent,Confluent
+snowflake,Snowflake
+ironclad,Ironclad
+benchsci,BenchSci
+dagster,Dagster Labs
+prefect,Prefect
+motherduck,MotherDuck
+hightouch,Hightouch
+census,Census
+segment,Segment
+fullstory,FullStory
+contentful,Contentful
+sanity,Sanity
+algolia,Algolia
+mux,Mux
+cloudinary,Cloudinary
+twelvelabs,Twelve Labs
+assemblyai,AssemblyAI
+deepgram,Deepgram
+labelbox,Labelbox
+snorkelai,Snorkel AI
+dataiku,Dataiku
+domino,Domino Data Lab
+h2oai,H2O.ai
+datarobot,DataRobot
+c3iot,C3 AI
+alation,Alation
+collibra,Collibra
+montecarlodata,Monte Carlo
+atlan,Atlan
+thoughtspot,ThoughtSpot
+looker,Looker
+mode,Mode
+observeinc,Observe
+cribl,Cribl
+lightstep,Lightstep
+imply,Imply
+tecton,Tecton
+featureform,Featureform
+qdrant,Qdrant
+chroma,Chroma
+lancedb,LanceDB
+langchain,LangChain
+llamaindex,LlamaIndex
+fireworksai,Fireworks AI
+baseten,Baseten
+replicate,Replicate
+lambda,Lambda
+coreweave,CoreWeave
+cerebras,Cerebras
+sambanova,SambaNova
+groq,Groq
+sciforma,Sciforma
+nvidia,NVIDIA
+amd,AMD
+instabase,Instabase
+hebbia,Hebbia
+writer,Writer
+jasper,Jasper
+copyai,Copy.ai
+typeface,Typeface
+adept,Adept
+inflection,Inflection AI
+cognition,Cognition
+sierra,Sierra
+decagon,Decagon
+abridge,Abridge
+ambiencehealthcare,Ambience Healthcare
+tempus,Tempus
+flatiron,Flatiron Health
+komodohealth,Komodo Health
+devoted,Devoted Health
+cityblock,Cityblock Health
+includedhealth,Included Health
+hingehealth,Hinge Health
+omadahealth,Omada Health
+spring,Spring Health
+lyrahealth,Lyra Health
+modernhealth,Modern Health
+cerebral,Cerebral
+nurx,Nurx
+alma,Alma
+headway,Headway
+sword,Sword Health
+garnerhealth,Garner Health
+oura,Oura
+whoop,WHOOP
+strava,Strava
+alltrails,AllTrails
+gofundme,GoFundMe
+patreon,Patreon
+substack,Substack
+kickstarter,Kickstarter
+eventbrite,Eventbrite
+seatgeek,SeatGeek
+stubhub,StubHub
+vivid,Vivid Seats
+fanduel,FanDuel
+draftkings,DraftKings
+underdog,Underdog Fantasy
+prizepicks,PrizePicks
+sleeper,Sleeper
+chess,Chess.com
+niantic,Niantic
+riotgames,Riot Games
+epicgames,Epic Games
+scopely,Scopely
+zynga,Zynga
+blizzard,Blizzard
+bungie,Bungie
+mozilla,Mozilla
+wikimedia,Wikimedia Foundation
+khanacademy,Khan Academy
+coursera,Coursera
+udemy,Udemy
+masterclass,MasterClass
+quizlet,Quizlet
+chegg,Chegg
+brainly,Brainly
+outschool,Outschool
+handshake,Handshake
+greenhouse,Greenhouse
+lever,Lever
+ashby,Ashby
+gem,Gem
+checkr,Checkr
+hireright,HireRight
+justworks,Justworks
+remote,Remote
+oysterhr,Oyster
+papayaglobal,Papaya Global
+navan,Navan
+expensify,Expensify
+billcom,BILL
+melio,Melio
+modern-treasury,Modern Treasury
+moderntreasury,Modern Treasury
+unit,Unit
+treasuryprime,Treasury Prime
+increase,Increase
+column,Column
+lithic,Lithic
+highnote,Highnote
+alloy,Alloy
+socure,Socure
+persona,Persona
+middesk,Middesk
+plaidinc,Plaid
+mx,MX
+finix,Finix
+stash,Stash
+acorns,Acorns
+public,Public.com
+robinhoodmarkets,Robinhood
+webull,Webull
+apexfintech,Apex Fintech
+addepar,Addepar
+pulley,Pulley
+angellist,AngelList
+wellfound,Wellfound
+bolt,Bolt
+fastco,Fast
+klarna,Klarna
+afterpay,Afterpay
+upgrade,Upgrade
+upstart,Upstart
+lendingclub,LendingClub
+avant,Avant
+oportun,Oportun
+dave,Dave
+current,Current
+varo,Varo
+monzo,Monzo
+nubank,Nubank
+payoneer,Payoneer
+wise,Wise
+remitly,Remitly
+flywire,Flywire
+paypal,PayPal
+block,Block
+square,Square
+cashapp,Cash App
+shopify,Shopify
+bigcommerce,BigCommerce
+attentive,Attentive
+yotpo,Yotpo
+gorgias,Gorgias
+narvar,Narvar
+shipbob,ShipBob
+convoy,Convoy
+samsaradev,Samsara
+project44,project44
+fourkites,FourKites
+motive,Motive
+keeptruckin,Motive
+nauto,Nauto
+platformscience,Platform Science
+transfix,Transfix
+uber,Uber
+lime,Lime
+bird,Bird
+getaround,Getaround
+turo,Turo
+hopper,Hopper
+kayak,KAYAK
+tripadvisor,Tripadvisor
+expedia,Expedia
+booking,Booking.com
+vacasa,Vacasa
+sonder,Sonder
+zillow,Zillow
+redfin,Redfin
+realtor,Realtor.com
+homelight,HomeLight
+pacaso,Pacaso
+divvyhomes,Divvy Homes
+roofstock,Roofstock
+appfolio,AppFolio
+entrata,Entrata
+latchaccess,Latch
+procore,Procore
+servicetitan,ServiceTitan
+jobber,Jobber
+housecallpro,Housecall Pro
+toasttab,Toast
+olo,Olo
+sevenrooms,SevenRooms
+resy,Resy
+grubhub,Grubhub
+postmates,Postmates
+wolt,Wolt
+deliveroo,Deliveroo
+goodrx,GoodRx
+capsule,Capsule
+alto,Alto Pharmacy
+truepill,Truepill
+everlywell,Everlywell
+ginkgobioworks,Ginkgo Bioworks
+twistbioscience,Twist Bioscience
+10xgenomics,10x Genomics
+illumina,Illumina
+guardanthealth,Guardant Health
+natera,Natera
+invitae,Invitae
+23andme,23andMe
+grail,GRAIL
+pathai,PathAI
+paige,Paige
+owkin,Owkin
+inceptive,Inceptive
+generatebiomedicines,Generate Biomedicines
+isomorphiclabs,Isomorphic Labs
+xaira,Xaira Therapeutics
+enveda,Enveda
+formic,Formic
+figureai,Figure AI
+1x,1X
+agilityrobotics,Agility Robotics
+bostondynamics,Boston Dynamics
+physicalintelligence,Physical Intelligence
+skild,Skild AI
+covariant,Covariant
+dusty,Dusty Robotics
+symbotic,Symbotic
+locusrobotics,Locus Robotics
+berkshiregrey,Berkshire Grey
+pathrobotics,Path Robotics
+machina,Machina Labs
+hadrian,Hadrian
+vast,Vast
+astranis,Astranis
+planet,Planet
+rocketlab,Rocket Lab
+firefly,Firefly Aerospace
+varda,Varda Space
+saronic,Saronic
+epirus,Epirus
+hermeus,Hermeus
+boomsupersonic,Boom Supersonic
+archer,Archer Aviation
+jobyaviation,Joby Aviation
+wisk,Wisk
+beta,BETA Technologies
+redwoodmaterials,Redwood Materials
+commonwealthfusion,Commonwealth Fusion Systems
+helion,Helion
+formenergy,Form Energy
+arcadia,Arcadia
+watershed,Watershed
+patch,Patch
+pachama,Pachama
+crusoe,Crusoe
+octopusenergy,Octopus Energy
+span,SPAN
+palmetto,Palmetto
+sunrun,Sunrun
+aurorasolar,Aurora Solar
+enphase,Enphase
+tesla,Tesla
+rivian,Rivian
+canoo,Canoo
+zoox,Zoox
+auroratech,Aurora Innovation
+kodiak,Kodiak Robotics
+gatik,Gatik
+plusai,Plus
+waabi,Waabi
+wayve,Wayve
+mobileye,Mobileye
+scale,Scale AI
+mosaicml,MosaicML
+stabilityai,Stability AI
+midjourney,Midjourney
+ideogram,Ideogram
+pika,Pika
+suno,Suno
+heygen,HeyGen
+synthesia,Synthesia
+descript,Descript
+canva,Canva
+miro,Miro
+pitch,Pitch
+gamma,Gamma
+tome,Tome
+coda,Coda
+clickup,ClickUp
+mondaycom,monday.com
+wrike,Wrike
+smartsheetinc,Smartsheet
+atlassian,Atlassian
+zendesk,Zendesk
+freshworks,Freshworks
+hubspot,HubSpot
+gong,Gong
+outreach,Outreach
+salesloft,Salesloft
+apollo,Apollo.io
+zoominfo,ZoomInfo
+clari,Clari
+highspot,Highspot
+seismic,Seismic
+docusign,DocuSign
+dialpad,Dialpad
+aircall,Aircall
+talkdesk,Talkdesk
+fivetraninc,Fivetran
