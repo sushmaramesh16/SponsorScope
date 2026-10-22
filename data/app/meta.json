@@ -1,17 +1,17 @@
 {
-  "snapshot_date": "2026-10-21",
-  "fetched_at": "2026-10-21T15:59:17+00:00",
+  "snapshot_date": "2026-10-22",
+  "fetched_at": "2026-10-22T15:54:30+00:00",
   "boards": 313,
   "boards_ok": 313,
-  "postings_fetched": 34185,
-  "postings_in_scope": 5658,
-  "open_jobs": 5576,
+  "postings_fetched": 34222,
+  "postings_in_scope": 5667,
+  "open_jobs": 5585,
   "companies": 313,
   "employer_match": {
     "companies_matched": 246,
     "companies_total": 313,
     "company_match_rate": 0.7859,
-    "open_jobs_with_matched_employer": 0.8578,
+    "open_jobs_with_matched_employer": 0.8603,
     "blocked_false_matches": 3,
     "by_method": {
       "exact": 190,
@@ -20,7 +20,7 @@
       "blocked": 3
     }
   },
-  "history_rows": 6371,
+  "history_rows": 6469,
   "lca": {
     "source": "US DOL OFLC LCA Programs (H-1B, H-1B1, E-3) disclosure data",
     "source_page": "https://www.dol.gov/agencies/eta/foreign-labor/performance",
@@ -36,5 +36,5 @@
     "employers": 61934,
     "built_at": "2026-10-07T23:14:47+00:00"
   },
-  "exported_at": "2026-10-21T15:59:33+00:00"
+  "exported_at": "2026-10-22T15:54:47+00:00"
 }
